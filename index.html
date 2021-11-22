@@ -13,16 +13,60 @@
         </h1>
         <form id="myForm">
             <div class="campo">
-                <select name="expreg" id="expreg">
-                    <option value="0"></option>
-                    <option value="1">Buscar fabian</option>
-                    <option value="2">Validar Código Postal</option>
+                <select name="expreg" id="select">
+                    <option value="0">
+                        Selecciona una opción
+
+                    </option>
+                    <option value="1">
+                        Valida una cadena que 
+                        tenga 5 caracteres que empiece y 
+                        termine con la letra a.
+                    </option>
+                    <option value="2">
+                        Solicita el ingreso de la cordenada de un punto. 
+                        El formato a ingresar por teclado es (999,999) 
+                        Los números pueden tener entre 1 y 3 dígitos.
+                    </option>
+                    <option value="3">
+                            Confecciona una expresión regular que valide el
+                            ingreso del nombre de un día de la semana y un número
+                            de mes de 1 o 2 dígitos: Ej: "Lunes, 31"
+                    </option>
+                    <option value="4">
+                        Valida si una cadena tiene el 
+                        formato de fecha dd/mm/aa.
+                    </option>
+                    <option value="5">
+                        Valida un número si es entero, se admiten los
+                        símbolos + ó -. Ejemplo: -3.
+                    </option>
+                    <option value="6">
+                        Comprobar por un promp si una palabra empieza por 
+                        "hiper" o "hipo".
+                    </option>
+                    <option value="7">
+                        Oración con alguna palabra de al 
+                        menos 6 caracteres.
+                    </option>
+                    <option value="8">
+                        Validar la capital de España.
+                    </option>
+                    <option value="9">
+                        Validar una cadena vacía.
+                    </option>
+                    <option value="match">
+                        A partir de una cadena dada mostrar sólo los números.
+                    </option>
                 </select>
             </div>
             <div class="message">
                 
             </div>
         </form>
+        <div class="mensajes">
+
+        </div>
     </main>
     <script src="js/app.js"></script>
 </body>
